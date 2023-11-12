@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(images/fon2.png);
+    background-repeat:repeat;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 14px;
+}
+
+
+header {
+    width: 90%;
+    margin: auto;
+}
+
+.menu a {
+    font-size: 36px;
+    color: #EFF1D2;
+    text-decoration: none;
+    margin-right: 53px;
+}
+
+.tel {
+    font-size: 36px;
+    color: #EFF1D2;
+    text-decoration: none;
+    margin-left: auto;
+    text-align: right;
+}
+
+.logo {
+    margin-right: 53px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+
+hr {
+    height: 2px;
+    background-color: #7A760c;
+    border: none;
+}
+
+main {
+    width: 90%;
+    margin: auto;   
+    color: #EFF1D2;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 64px;
+    margin-bottom: 90px;
+}
+main p {
+    margin: 0;
+    font-size: 37px;
+}
+
+.subscribe {
+    width: 570px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foto {
+    width: 570px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 560px) {
+    .foto {
+        width: auto;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .subscribe p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: block;
+    }
+}
