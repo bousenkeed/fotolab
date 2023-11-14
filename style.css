@@ -72,6 +72,79 @@ main h1 {
 
 .btn {
     margin-bottom: 160px;
+    cursor: pointer;
+}
+
+.click-style {
+    filter: brightness(20%);
+}
+
+.popup-reg {
+    display: none;
+    width: 500px;
+    height: 400px;
+    background-color:#EFF1D2;
+    border-radius: 15%;
+    box-shadow: 6px 8px 4px grey;
+
+}
+
+.show {
+    display: block;
+    position: absolute;
+    bottom: 25%;
+}
+
+.btn-close {
+    cursor: pointer;
+    background-color:#eeff00;
+    height: 45px;
+    width: 50px;
+    display: flex;
+    margin-left: auto;
+    align-items:end;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: 600;
+    box-shadow: 8px 8px 4px black;
+}
+
+.popup-reg a {
+    text-decoration: none;
+}
+
+.input-form {
+    border-radius: 20px;
+    height: 30px;
+    width: 350px;
+}
+
+.popup-reg > p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-send {
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    width: 135px;
+    height: 35px;
+    margin-top: 45px;
+    background-color: rgb(234, 234, 37);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    box-shadow: 6px 8px 4px grey;
 }
 
 footer {

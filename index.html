@@ -29,14 +29,14 @@
 
         </div>
 
-        
+
     </header>
-    
-    
+
+
     <main>
 
         <hr>
-        
+
         <div class="main-text">
 
             <h1>
@@ -44,6 +44,26 @@
             </h1>
 
             <a href="#"><img src="images/button.png" class="btn" alt="button"></a>
+
+            <div class="popup-reg">
+
+                <button class="btn-close"> X</button>
+
+                <p class="text-reg">Представьтесь и мы с вами свяжемся </p>
+
+                <div class="container-info">
+                    <p>Введите Имя:</p>
+                    <input class="input-form" type="text"></input>
+                </div>
+
+                <div class="container-info">
+                    <p>Введите телефон:</p>
+                    <input class="input-form" type="text"></input>
+                </div>
+                
+                <button class="button-send" type="submit">ОТПРАВИТЬ</button>
+            </div>
+            
         </div>
 
         <hr>
@@ -58,7 +78,30 @@
         </div>
 
     </footer>
+    <script>
 
+        let button = document.querySelector('.btn');
+        let popup = document.querySelector('.popup-reg');
+        let btnClose = document.querySelector('.btn-close');
+        let btnSend = document.querySelector('.button-send');
+    
+
+        button.addEventListener('click', function () {
+            button.classList.toggle('click-style');
+            popup.classList.toggle('show');
+
+        })
+
+        btnClose.addEventListener('click', function(){
+            button.classList.toggle('click-style');
+            popup.classList.toggle('show');
+        })
+
+        btnSend.addEventListener('click', function(){
+            button.classList.toggle('click-style');
+            popup.classList.toggle('show');
+        })
+    </script>
 </body>
 
 </html>
